@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+
+}
+body{
+    background-color: rgb(221, 209, 209);
+}
+.container{
+    
+    width: 100%;
+}
+/* header area */
+header{
+
+}
+.logo{
+    float: left;
+    width: 10%;
+    box-shadow: 2px 3px 7px rgba(0,0,0,0.3);
+}
+.mymenu{
+    width: 90%;
+    background-color: #fff;
+    float: left;
+    box-shadow: 2px 3px 7px rgba(0,0,0,0.3);
+}
+.mymenu ul{
+    
+}
+.mymenu ul li{
+    float: left;
+}
+.mymenu ul li a{
+    padding: 20px;
+    display: block;
+    color: rgb(61, 59, 59);
+    font-size: 20px;
+}
+.mymenu ul li a:hover{
+    color: rgb(250, 103, 11);
+}
+
+/* Dropdown Menu */
+
+.head{
+    display: none;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+ 
+}
+.head .box{
+    width: 33.33%;
+    float: left;
+}
+.mymenu ul li:hover .head{
+    display: block;
+    position: absolute;
+}
+.head .box h2{
+    margin-left: 20px;
+}
+.head .box a{
+    font-size: 15px;
+    line-height: 1px;
+}
+.head .box a:hover{
+    color: none;
+}
+
+/* Sidebar area */
+
+.sidebar{
+    width: 230px;
+    height: 100vh;
+    background-color: #fff;
+    
+}
+.sidebar a img{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.sidebar ul{
+
+}
+
+
+.sidebar ul li a{
+    padding: 15px;
+    display: block;
+    font-size: 20px;
+    color: rgb(46, 45, 45);
+}
+.sidebar ul li a:hover{
+    color: rgb(23, 73, 221);
+}
+
+
+.sidebar ul li .insidebar{
+    display: none;
+    width: 200px;
+    background-color: rgb(68, 21, 177);
+    margin-left: 230px;
+}
+.sidebar ul li .insidebar li{
+    margin-left: 50px;
+}
+
+.sidebar ul li .insidebar li a{
+    color: white;
+}
+.sidebar ul li .insidebar li a:hover{
+    color: orangered;
+}
+.sidebar ul li .insidebar{
+    margin-top: -40px;
+}
+.sidebar ul li:hover .insidebar{
+    display: block;
+    position: absolute;
+}
+footer{
+    padding: 15px;
+    background-color: darkgray;
+    margin-top: -49px;
+}
+footer p{
+    text-align: center;
+}
